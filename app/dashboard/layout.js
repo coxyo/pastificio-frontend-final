@@ -7,7 +7,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { OrdiniProvider } from '@/contexts/OrdiniContext';
 
 const MainLayout = dynamic(
-  () => import('@/components/Layout/MainLayout'),
+  () => import('@/components/layout/MainLayout'),  // <-- Cambiato Layout in layout (minuscolo)
   { ssr: false }
 );
 
